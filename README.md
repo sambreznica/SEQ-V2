@@ -20,3 +20,4 @@ View your app in AI Studio: https://ai.studio/apps/drive/14apwTZjpOeT1vJZWsD6W2d
    `npm run dev`
 # SEQ-V2
 # SEQ-V2
+# SEQ-V2

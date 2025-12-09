@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect fill="#0f0f0f" width="400" height="300"/>
+  <rect fill="#1a1a1a" x="40" y="30" width="320" height="240" rx="2"/>
+  <rect fill="#2a2a2a" x="60" y="50" width="280" height="1"/>
+  <rect fill="#3EE8B5" x="60" y="70" width="80" height="4" rx="1"/>
+  <rect fill="#ffffff" opacity="0.9" x="60" y="90" width="200" height="8" rx="1"/>
+  <rect fill="#ffffff" opacity="0.6" x="60" y="108" width="160" height="6" rx="1"/>
+  <rect fill="#2a2a2a" x="60" y="130" width="280" height="1"/>
+  <rect fill="#3a3a3a" x="60" y="150" width="280" height="4" rx="1"/>
+  <rect fill="#3a3a3a" x="60" y="162" width="260" height="4" rx="1"/>
+  <rect fill="#3a3a3a" x="60" y="174" width="240" height="4" rx="1"/>
+  <rect fill="#3a3a3a" x="60" y="186" width="200" height="4" rx="1"/>
+  <rect fill="#2a2a2a" x="60" y="210" width="280" height="1"/>
+  <text fill="#3EE8B5" font-family="monospace" font-size="8" x="60" y="235" opacity="0.6">SEQUENCE_APC_WHITEPAPER_V1.0</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <marker id="arrowhead" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#3EE8B5"/>
+    </marker>
+  </defs>
+  
+  <rect fill="#0f0f0f" width="400" height="300"/>
+  <rect fill="#1a1a1a" x="40" y="30" width="320" height="240" rx="2"/>
+  
+  <!-- Title -->
+  <text fill="#3EE8B5" font-family="monospace" font-size="8" x="60" y="55" opacity="0.8">FIGURE 4</text>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" x="60" y="72" opacity="0.9">Policy Construction Diagram</text>
+  
+  <!-- Flow diagram -->
+  <rect fill="#3EE8B5" opacity="0.2" x="70" y="95" width="70" height="35" rx="3"/>
+  <rect fill="none" stroke="#3EE8B5" stroke-width="1" x="70" y="95" width="70" height="35" rx="3"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="82" y="116" opacity="0.9">Observation</text>
+  
+  <line stroke="#3EE8B5" stroke-width="1" x1="140" y1="112" x2="165" y2="112" marker-end="url(#arrowhead)"/>
+  
+  <rect fill="none" stroke="#4a4a4a" stroke-width="1" x="165" y="95" width="70" height="35" rx="3"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="173" y="110" opacity="0.7">World Model</text>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="7" x="180" y="122" opacity="0.5">Prediction</text>
+  
+  <line stroke="#4a4a4a" stroke-width="1" x1="235" y1="112" x2="260" y2="112"/>
+  
+  <rect fill="none" stroke="#4a4a4a" stroke-width="1" x="260" y="95" width="70" height="35" rx="3"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="278" y="110" opacity="0.7">Options</text>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="7" x="272" y="122" opacity="0.5">Generation</text>
+  
+  <!-- Second row -->
+  <line stroke="#3a3a3a" stroke-width="1" x1="295" y1="130" x2="295" y2="155"/>
+  
+  <rect fill="none" stroke="#3a3a3a" stroke-width="1" x="260" y="155" width="70" height="35" rx="3"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="277" y="170" opacity="0.6">Glimpses</text>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="7" x="267" y="182" opacity="0.4">Uncertainty ↓</text>
+  
+  <line stroke="#3a3a3a" stroke-width="1" x1="260" y1="172" x2="235" y2="172"/>
+  
+  <rect fill="none" stroke="#3a3a3a" stroke-width="1" x="165" y="155" width="70" height="35" rx="3"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="185" y="170" opacity="0.6">Policy</text>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="7" x="177" y="182" opacity="0.4">Selection</text>
+  
+  <line stroke="#3a3a3a" stroke-width="1" x1="165" y1="172" x2="140" y2="172"/>
+  
+  <rect fill="#3EE8B5" opacity="0.15" x="70" y="155" width="70" height="35" rx="3"/>
+  <rect fill="none" stroke="#3EE8B5" stroke-width="0.5" x="70" y="155" width="70" height="35" rx="3"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="92" y="176" opacity="0.8">Action</text>
+  
+  <!-- Feedback loop -->
+  <path fill="none" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="3,3" d="M 105 155 L 105 140 L 105 130"/>
+  
+  <!-- Caption -->
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="60" y="220" opacity="0.4">Free energy minimization through iterative</text>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="60" y="232" opacity="0.4">prediction-action-observation cycles</text>
+</svg>

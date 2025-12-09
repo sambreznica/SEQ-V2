@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect fill="#0f0f0f" width="400" height="300"/>
+  <rect fill="#1a1a1a" x="40" y="30" width="320" height="240" rx="2"/>
+  
+  <!-- Title -->
+  <text fill="#3EE8B5" font-family="monospace" font-size="8" x="60" y="55" opacity="0.8">FIGURE 2</text>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" x="60" y="72" opacity="0.9">APC World Model Hierarchy</text>
+  
+  <!-- Hierarchy boxes -->
+  <rect fill="none" stroke="#3EE8B5" stroke-width="1" x="160" y="90" width="80" height="30" rx="2"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="9" x="175" y="109" opacity="0.8">Future State</text>
+  
+  <line stroke="#3a3a3a" x1="200" y1="120" x2="200" y2="140"/>
+  
+  <rect fill="none" stroke="#4a4a4a" stroke-width="1" x="120" y="140" width="70" height="26" rx="2"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="137" y="157" opacity="0.7">Frame α</text>
+  
+  <rect fill="none" stroke="#4a4a4a" stroke-width="1" x="210" y="140" width="70" height="26" rx="2"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="227" y="157" opacity="0.7">Frame β</text>
+  
+  <line stroke="#3a3a3a" x1="155" y1="166" x2="155" y2="186"/>
+  <line stroke="#3a3a3a" x1="245" y1="166" x2="245" y2="186"/>
+  
+  <rect fill="none" stroke="#3a3a3a" stroke-width="1" x="100" y="186" width="50" height="22" rx="2"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="7" x="110" y="200" opacity="0.6">Linkage</text>
+  
+  <rect fill="none" stroke="#3a3a3a" stroke-width="1" x="160" y="186" width="50" height="22" rx="2"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="7" x="170" y="200" opacity="0.6">Linkage</text>
+  
+  <rect fill="none" stroke="#3a3a3a" stroke-width="1" x="220" y="186" width="50" height="22" rx="2"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="7" x="230" y="200" opacity="0.6">Linkage</text>
+  
+  <rect fill="none" stroke="#3a3a3a" stroke-width="1" x="280" y="186" width="50" height="22" rx="2"/>
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="7" x="290" y="200" opacity="0.6">Linkage</text>
+  
+  <!-- Connection lines -->
+  <line stroke="#3a3a3a" x1="155" y1="120" x2="155" y2="140"/>
+  <line stroke="#3a3a3a" x1="245" y1="120" x2="245" y2="140"/>
+  <line stroke="#3a3a3a" x1="200" y1="120" x2="155" y2="140"/>
+  <line stroke="#3a3a3a" x1="200" y1="120" x2="245" y2="140"/>
+  
+  <line stroke="#3a3a3a" x1="125" y1="166" x2="125" y2="186"/>
+  <line stroke="#3a3a3a" x1="185" y1="166" x2="185" y2="186"/>
+  <line stroke="#3a3a3a" x1="155" y1="166" x2="125" y2="186"/>
+  <line stroke="#3a3a3a" x1="155" y1="166" x2="185" y2="186"/>
+  
+  <line stroke="#3a3a3a" x1="245" y1="166" x2="245" y2="186"/>
+  <line stroke="#3a3a3a" x1="305" y1="166" x2="305" y2="186"/>
+  <line stroke="#3a3a3a" x1="245" y1="166" x2="305" y2="186"/>
+  
+  <!-- Caption -->
+  <text fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" x="60" y="245" opacity="0.4">Hierarchical decomposition of temporal coherence</text>
+</svg>
